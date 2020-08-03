@@ -1,0 +1,27 @@
+.image-container {
+    width: 750px;
+    height: 900px;
+    position: relative;
+    margin: auto;
+}
+
+.image {
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    border-radius: 2.5%;
+    top: 150px;
+    z-index: 0;
+    transition: ease-out 150ms;
+    color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    line-height: 280px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image:hover {
+    transform: scale(1.25);
+    top: 112.5px;
+    z-index: 1;
+    transition: ease-in 150ms;
+}
